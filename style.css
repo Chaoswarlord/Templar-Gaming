@@ -2,7 +2,8 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #0e0e0e;
+  background: url(images/templar%20gaming%20background.jpg')no-repeat center center fixed;
+  background-size: cover;
   color: #fff;
 }
 header {
