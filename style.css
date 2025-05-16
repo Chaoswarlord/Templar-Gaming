@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0e0e0e;
+  color: #fff;
+}
+header {
+  background: #1a1a1a;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header h1 {
+  margin: 0;
+}
+header .discord {
+  color: #7289da;
+  text-decoration: none;
+}
+section {
+  padding: 2em;
+}
+h2 {
+  text-align: center;
+}
+.game-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1em;
+}
+.game {
+  background: #222;
+  padding: 1em;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+.game img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+.game a {
+  display: inline-block;
+  margin: 0.5em;
+  padding: 0.5em 1em;
+  background: #444;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background: #1a1a1a;
+  margin-top: 2em;
+}
